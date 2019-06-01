@@ -5,7 +5,8 @@ import HeaderContent from './HeaderContent';
 const HeaderTitle = () => {
   return (
     <div className="header-title">
-      <p><strong>Lambda School</strong> @lambdaSchool • 26 jan </p>
+      <h1>Lambda School</h1> 
+      <h2>@lambdaSchool • 26 jan </h2>
       <HeaderContent />
     </div>
   );
