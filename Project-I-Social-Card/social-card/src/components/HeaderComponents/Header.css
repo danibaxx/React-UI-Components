@@ -1,13 +1,31 @@
 /* All styles for your header Components live here */
 .header-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  max-width: 700px;
+  display: flex;
+  margin: 5px;
 }
 
 .header-title {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  max-width: 600px;
 }
 
 .lambda-badge {
-  border: 2px solid green;
-  width: 50px;
+  /* border: 2px solid green; */
+  width: 55px;
+  height: 55px;
+}
+
+h1 {
+  font-size: 18px;
+  display: inline;
+}
+
+h2 {
+  font-weight: lighter;
+  display: inline;
+  font-size: 14px;
+  margin-left: 5px;
+  color: lightgrey;
 }
