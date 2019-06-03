@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.card-container {
+  border: 1px solid lightgray;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 80px;
+}
+
+.react-img {
+  border-radius: 8px 8px 0px 0px;
+  max-width: 618px;
+}
+
+.card-text {
+  /* border: 2px solid aquamarine; */
+  margin: 15px;
+}
+
+.react {
+  color: lightgray;
+  font-weight: lighter;
+  font-size: 16px;
+}
